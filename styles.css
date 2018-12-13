@@ -12,7 +12,7 @@ input[type=text], select {
    
   }
   
-  input[type=submit] {
+  button {
     width: 17%;
     background-color: rgb(12, 68, 59);
     color: rgb(185, 233, 201);
@@ -23,7 +23,7 @@ input[type=text], select {
     cursor: pointer;
   }
   
-  input[type=submit]:hover {
+  button:hover {
     background-color:rgb(5, 58, 32);
   }
   form{text-align:center;
