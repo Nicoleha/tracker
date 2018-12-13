@@ -1,22 +1,27 @@
 # Triangle Tracker
-#### Triangle tracker, {Date of current version}
-#### By **{List of contributors}**
+#### Triangle tracker is a website designed to tell which triangle is Scalene,Equilateral,Isoscele or not a triangle, December 13th 2018
+#### By **NICOLE H.**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+Triangle tracker is a website designed to tell which triangle is Scalene,Equilateral,Isoscele or not a triangle. This website will facilitate it's user to know the triangle specified without need to check the internet or to do some calculation. It is created to ease the search for people who want to know the type of a specified triangle.
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+* Open your computer
+* Connect to internet
+* search for my link: Nicoleha.github.io/portfolio
+* There you are on my website!
+This website can be view on mobile or computer and with ease.
+##BDD(Behavior-Driven Development)
+###|Behavior our program should handle:
+
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+All safe , no bugs will be encoutered on my portfolio website.
 ## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+Firstly I used Javascript,HTML and CSS to make my website.
+I used Ubuntu software and visual studio code to write my code. I hosted it using git hub after pushing my remote repository to git hub.
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+If needed contact me on:
+E-mail:nicoleha127@gmail.com
+Phone:0732702205-0781899928.
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+*[MIT]*
+Copyright (c) 2018 **HATEGEKIMANA NICOLE**
   

@@ -7,12 +7,18 @@ function track(){
         text = "Equilaterial Triangle.";
     }
      //Equivalent Triangle
-   
-    else if(firstNumber===secondNumber || firstNumber===thirdNumber || secondNumber===thirdNumber) {
+    
+    else if(firstvalue===secondvalue || firstvalue===thirdvalue || secondvalue===thirdvalue) {
         text="Isoscele Triangle.";
     } 
+    //Isoscele Triangle
+    else if(firstvalue!==secondvalue && firstvalue!==thirdvalue &&secondvalue!==thirdvalue){
+        text="Scalene Triangle."
+    }
+    //Scalene Triangle
+   
     else{
-        text = "not isosceles";
+        text = "Not a Triangle.";
     }
     document.getElementById('demo').innerHTML = text;
 }
