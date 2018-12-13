@@ -6,11 +6,12 @@ Triangle tracker is a website designed to tell which triangle is Scalene,Equilat
 ## Setup/Installation Requirements
 * Open your computer
 * Connect to internet
-* search for my link: Nicoleha.github.io/portfolio
-* There you are on my website!
+* search for my link: Nicoleha.github.io/
+* There you are, you can start tracking!
 This website can be view on mobile or computer and with ease.
-##BDD(Behavior-Driven Development)
-###
+## BDD(Behavior-Driven Development)
+### The following is what my program should handle:
+
 | Behavior | Input Example |Numerical Example| Output Example |
 | :----:   | :-----------: | :------------: | :---------------|
 |a triangle is isoscele| any two side are equal|3; 3; 5|Isoscele Triangle     |
