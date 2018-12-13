@@ -26,7 +26,10 @@ input[type=text], select {
   button:hover {
     background-color:rgb(5, 58, 32);
   }
-  form{text-align:center;
+  #form{text-align:center;
       padding: 200px;}
-      form:hover{
+      #form:hover{
     box-shadow:1px 1px 1px rgb(2, 27, 12);}
+    #demo{font-style:monospace;
+    font-weight:900;
+  c}
