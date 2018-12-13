@@ -4,11 +4,15 @@ function track(){
     var thirdvalue=document.getElementById('three').value;
     var text;
     if(firstvalue === secondvalue && secondvalue === thirdvalue){
-        text = "Equilaterial Triangle"
+        text = "Equilaterial Triangle.";
     }
+     //Equivalent Triangle
    
+    else if(firstNumber===secondNumber || firstNumber===thirdNumber || secondNumber===thirdNumber) {
+        text="Isoscele Triangle.";
+    } 
     else{
-        text = "not isosceles"
+        text = "not isosceles";
     }
     document.getElementById('demo').innerHTML = text;
 }
