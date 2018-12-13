@@ -3,7 +3,10 @@ function track(){
     var secondvalue=document.getElementById('two').value;
     var thirdvalue=document.getElementById('three').value;
     var text;
-    if(firstvalue === secondvalue && secondvalue === thirdvalue){
+    if(firstvalue <= 0|| secondvalue <= 0 || thirdvalue <=0 ){
+        text="Undefined"
+    }
+    else if(firstvalue === secondvalue && secondvalue === thirdvalue){
         text = "Equilaterial Triangle.";
     }
      //Equivalent Triangle
@@ -16,6 +19,7 @@ function track(){
         text="Scalene Triangle."
     }
     //Scalene Triangle
+   
    
     else{
         text = "Not a Triangle.";

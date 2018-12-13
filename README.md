@@ -10,7 +10,13 @@ Triangle tracker is a website designed to tell which triangle is Scalene,Equilat
 * There you are on my website!
 This website can be view on mobile or computer and with ease.
 ##BDD(Behavior-Driven Development)
-###|Behavior our program should handle:
+###
+| Behavior | Input Example | Output Example |
+| :----:   | :-----------: | :------------: |
+|a triangle is isoscele| any two side are equal|Isoscle Triangle     |
+|a triangle is equilateral| all side are equal| Equilateral Triangle|
+|a triangle is scalene|when no sise equal to another |Scalene Triangle|
+|it is not a triangle | the sum of any two sides is not equal to the third sum|Not a Triangle|
 
 ## Known Bugs
 All safe , no bugs will be encoutered on my portfolio website.
