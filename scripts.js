@@ -6,6 +6,7 @@ function track(){
     if(firstvalue === secondvalue && secondvalue === thirdvalue){
         text = "Equilaterial Triangle"
     }
+   
     else{
         text = "not isosceles"
     }
