@@ -1,8 +1,8 @@
 body{background-color:rgb(69, 85, 69);
-  color:rgb(238, 177, 148);
+  color:rgb(189, 204, 187);
   font-family:'Courier New'}
   h1{padding-top: 40px;
-    box-shadow:1px 1px 1px rgb(231, 236, 186);
+    text-shadow:2px 1px 1px rgb(231, 236, 186);
   }
 input{background-color:rgb(204, 174, 174);}
 input[type=text], select {
@@ -19,12 +19,13 @@ input[type=text], select {
   button {
     width: 17%;
     background-color: rgb(12, 68, 59);
-    color: rgb(185, 233, 201);
+    color:rgb(240, 224, 224);
     padding: 28px 34px;
     margin: 7px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    text-shadow:2px 1px 1px rgb(53, 150, 81);
   }
   
   button:hover {
@@ -39,3 +40,9 @@ input[type=text], select {
     #demo{font-style:monospace;
     font-weight:bolder;
     }
+    footer {
+      text-align: center;
+      padding-top: 20px;
+      background-color: grey;
+      font-family: 'Courier New';
+      opacity: 0.65;}
