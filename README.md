@@ -19,6 +19,7 @@ This website can be view on mobile or computer and with ease.
 |a triangle is scalene|when no sise equal to another |5 ; 7; 9| Scalene Triangle|
 |it is not a triangle | the sum of any two sides is not equal to the third sum|23; 6; 4|Not a Triangle|
 |Undefined|when 0 or nothing is inserted | 0; 2; 4|Undefined| 
+
 ## Known Bugs
 All safe , no bugs will be encoutered on my triangle tracker website.
 ## Technologies Used
