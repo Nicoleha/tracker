@@ -12,12 +12,12 @@ This website can be view on mobile or computer and with ease.
 ##BDD(Behavior-Driven Development)
 ###
 | Behavior | Input Example |Numerical Example| Output Example |
-| :----:   | :-----------: | :------------: |
-|a triangle is isoscele| any two side are equal|3; 3; 5|Isoscle Triangle     |
+| :----:   | :-----------: | :------------: | :---------------|
+|a triangle is isoscele| any two side are equal|3; 3; 5|Isoscele Triangle     |
 |a triangle is equilateral| all side are equal|4; 4; 4| Equilateral Triangle|
 |a triangle is scalene|when no sise equal to another |5 ; 7; 9| Scalene Triangle|
 |it is not a triangle | the sum of any two sides is not equal to the third sum|23; 6; 4|Not a Triangle|
-
+|Undefined|when 0 or nothing is inserted | 0; 2; 4|Undefined| 
 ## Known Bugs
 All safe , no bugs will be encoutered on my triangle tracker website.
 ## Technologies Used
