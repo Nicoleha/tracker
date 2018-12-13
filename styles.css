@@ -1,7 +1,9 @@
-body{background-color:rgb(69, 85, 69);}
+body{background-color:rgb(69, 85, 69);
+  color:rgb(238, 177, 148);}
+input{background-color:rgb(204, 174, 174);}
 input[type=text], select {
-    width: 50%;
-    padding: 17px 20px;
+    width: 30%;
+    padding: 20px 25px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -11,9 +13,9 @@ input[type=text], select {
   }
   
   input[type=submit] {
-    width: 20%;
-    background-color: rgb(189, 136, 201);
-    color: white;
+    width: 17%;
+    background-color: rgb(12, 68, 59);
+    color: rgb(185, 233, 201);
     padding: 28px 34px;
     margin: 7px 0;
     border: none;
@@ -22,5 +24,9 @@ input[type=text], select {
   }
   
   input[type=submit]:hover {
-    background-color:red;
+    background-color:rgb(5, 58, 32);
   }
+  form{text-align:center;
+      padding: 200px;}
+      form:hover{
+    box-shadow:1px 1px 1px rgb(2, 27, 12);}
