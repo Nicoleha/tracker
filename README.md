@@ -11,15 +11,15 @@ Triangle tracker is a website designed to tell which triangle is Scalene,Equilat
 This website can be view on mobile or computer and with ease.
 ##BDD(Behavior-Driven Development)
 ###
-| Behavior | Input Example | Output Example |
+| Behavior | Input Example |Numerical Example| Output Example |
 | :----:   | :-----------: | :------------: |
-|a triangle is isoscele| any two side are equal|Isoscle Triangle     |
-|a triangle is equilateral| all side are equal| Equilateral Triangle|
-|a triangle is scalene|when no sise equal to another |Scalene Triangle|
-|it is not a triangle | the sum of any two sides is not equal to the third sum|Not a Triangle|
+|a triangle is isoscele| any two side are equal|3; 3; 5|Isoscle Triangle     |
+|a triangle is equilateral| all side are equal|4; 4; 4| Equilateral Triangle|
+|a triangle is scalene|when no sise equal to another |5 ; 7; 9| Scalene Triangle|
+|it is not a triangle | the sum of any two sides is not equal to the third sum|23; 6; 4|Not a Triangle|
 
 ## Known Bugs
-All safe , no bugs will be encoutered on my portfolio website.
+All safe , no bugs will be encoutered on my triangle tracker website.
 ## Technologies Used
 Firstly I used Javascript,HTML and CSS to make my website.
 I used Ubuntu software and visual studio code to write my code. I hosted it using git hub after pushing my remote repository to git hub.
