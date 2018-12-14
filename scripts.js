@@ -6,6 +6,7 @@ function track(){
     if(firstvalue <= 0|| secondvalue <= 0 || thirdvalue <=0 ){
         text="Undefined"
     }
+    
     else if(firstvalue === secondvalue && secondvalue === thirdvalue){
         text = "Equilaterial Triangle.";
     }
@@ -19,7 +20,9 @@ function track(){
         text="Scalene Triangle."
     }
     //Scalene Triangle
-   
+    else if((firstvalue+secondvalue) >= thirdvalue || (secondvalue+thirdvalue) >= firstvalue || (firstvalue+thirdvalue) >= secondvalue){
+        text= "it is not a triangle"
+    }
    
     else{
         text = "Not a Triangle.";
