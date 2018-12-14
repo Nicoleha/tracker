@@ -1,11 +1,16 @@
 function track(){
-    var firstvalue=document.getElementById('one').value;
-    var secondvalue=document.getElementById('two').value;
-    var thirdvalue=document.getElementById('three').value;
+    var firstvalue=parseInt(document.getElementById('one').value);
+    var secondvalue=parseInt(document.getElementById('two').value);
+    var thirdvalue=parseInt(document.getElementById('three').value);
     var text;
     if(firstvalue <= 0|| secondvalue <= 0 || thirdvalue <=0 ){
         text="Undefined"
     }
+    else if (
+        (firstvalue + secondvalue <= thirdvalue &&secondvalue + firstvalue <= thirdvalue) ||(firstvalue + thirdvalue <= secondvalue &&thirdvalue + firstvalue <= secondvalue) ||(secondvalue + thirdvalue <= firstvalue && thirddvalue + secondvalue <= firstvalue)
+      ) {
+        text = "Not a Triangle.";
+      }
     
     else if(firstvalue === secondvalue && secondvalue === thirdvalue){
         text = "Equilaterial Triangle.";
@@ -20,12 +25,9 @@ function track(){
         text="Scalene Triangle."
     }
     //Scalene Triangle
-    else if((firstvalue+secondvalue) >= thirdvalue || (secondvalue+thirdvalue) >= firstvalue || (firstvalue+thirdvalue) >= secondvalue){
-        text= "it is not a triangle"
-    }
-   
+    
     else{
-        text = "Not a Triangle.";
+        text = "Error";
     }
     document.getElementById('demo').innerHTML = text;
 }
