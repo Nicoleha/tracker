@@ -2,6 +2,7 @@ function track(){
     var firstvalue=parseInt(document.getElementById('one').value);
     var secondvalue=parseInt(document.getElementById('two').value);
     var thirdvalue=parseInt(document.getElementById('three').value);
+    var array=[firstvalue,secondvalue,thirdvalue];
     var text;
     if(firstvalue <= 0|| secondvalue <= 0 || thirdvalue <=0 ){
         text="Undefined"
@@ -26,7 +27,7 @@ function track(){
     else if(firstvalue===secondvalue || 
         firstvalue===thirdvalue || 
         secondvalue===thirdvalue) {
-        text="Isoscele Triangle.";
+        text="Isosceles Triangle.";
     } 
     //Isoscele Triangle
     else if(firstvalue!==secondvalue &&
@@ -39,5 +40,8 @@ function track(){
     else{
         text = "Error.";
     }
-    document.getElementById('demo').innerHTML = text;
+    
+    document.getElementById('demo').innerHTML="The value["+array+"]"+" is ";
+    document.getElementById('demo').innerHTML += text;
+
 }
