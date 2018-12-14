@@ -44,4 +44,11 @@ function track(){
     document.getElementById('demo').innerHTML="The value["+array+"]"+" is ";
     document.getElementById('demo').innerHTML += text;
 
+    document.getElementById("form").reset
 }
+
+// var c = document.getElementById("myCanvas");
+// var ctx = c.getContext("2d");
+// ctx.moveTo(0,0);
+// ctx.lineTo(200,100);
+// ctx.stroke();
