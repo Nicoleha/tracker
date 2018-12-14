@@ -7,7 +7,7 @@ body{background-color:rgb(69, 85, 69);
     text-shadow:2px 1px 1px rgb(231, 236, 186);
   }
 input{background-color:rgb(196, 148, 148);}
-input[type=text], select {
+input[type=number], select {
     width: 30%;
     padding: 20px 25px;
     margin: 8px 0;

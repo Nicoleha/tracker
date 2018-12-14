@@ -11,7 +11,7 @@ function track(){
       ) {
         text = "Not a Triangle.";
       }
-    
+    // Not a triangle
     else if(firstvalue === secondvalue && secondvalue === thirdvalue){
         text = "Equilaterial Triangle.";
     }
@@ -27,7 +27,7 @@ function track(){
     //Scalene Triangle
     
     else{
-        text = "Error";
+        text = "Error.";
     }
     document.getElementById('demo').innerHTML = text;
 }
