@@ -6,7 +6,7 @@ Triangle tracker is a website designed to tell which triangle is Scalene,Equilat
 ## Setup/Installation Requirements
 * Open your computer
 * Connect to internet
-* search for my link: Nicoleha.github.io/
+* search for my link: Nicoleha.github.io/tracker
 * There you are, you can start tracking!
 This website can be view on mobile or computer and with ease.
 ## BDD(Behavior-Driven Development)

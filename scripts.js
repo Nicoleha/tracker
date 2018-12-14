@@ -7,21 +7,31 @@ function track(){
         text="Undefined"
     }
     else if (
-        (firstvalue + secondvalue <= thirdvalue &&secondvalue + firstvalue <= thirdvalue) ||(firstvalue + thirdvalue <= secondvalue &&thirdvalue + firstvalue <= secondvalue) ||(secondvalue + thirdvalue <= firstvalue && thirddvalue + secondvalue <= firstvalue)
-      ) {
+        (firstvalue + secondvalue <= thirdvalue &&
+            secondvalue + firstvalue <= thirdvalue)||
+            (firstvalue + thirdvalue <= secondvalue &&
+            thirdvalue + firstvalue <= secondvalue) ||
+            (secondvalue + thirdvalue <= firstvalue && thirdvalue + secondvalue <= firstvalue)
+         ) {
         text = "Not a Triangle.";
       }
     // Not a triangle
-    else if(firstvalue === secondvalue && secondvalue === thirdvalue){
+    else if(firstvalue === secondvalue && 
+        firstvalue===thirdvalue &&
+        secondvalue === thirdvalue){
         text = "Equilaterial Triangle.";
     }
      //Equivalent Triangle
     
-    else if(firstvalue===secondvalue || firstvalue===thirdvalue || secondvalue===thirdvalue) {
+    else if(firstvalue===secondvalue || 
+        firstvalue===thirdvalue || 
+        secondvalue===thirdvalue) {
         text="Isoscele Triangle.";
     } 
     //Isoscele Triangle
-    else if(firstvalue!==secondvalue && firstvalue!==thirdvalue &&secondvalue!==thirdvalue){
+    else if(firstvalue!==secondvalue &&
+         firstvalue!==thirdvalue &&
+         secondvalue!==thirdvalue){
         text="Scalene Triangle."
     }
     //Scalene Triangle
