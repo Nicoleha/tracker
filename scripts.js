@@ -7,6 +7,9 @@ function track(){
     if(firstvalue <= 0|| secondvalue <= 0 || thirdvalue <=0 ){
         text="Undefined"
     }
+    else if((isNaN(firstvalue))||(isNaN(secondvalue))||(isNaN(thirdvalue))){
+         text="an error.Please fill in the blank space."
+    }
     else if (
         (firstvalue + secondvalue <= thirdvalue &&
             secondvalue + firstvalue <= thirdvalue)||
